@@ -1,0 +1,56 @@
+body, ul{
+margin: 0px;
+padding: 0px;
+  }
+  
+  #fundo{
+  background-color: black;
+  height: 125vh;
+}
+  
+a {
+  color: white;
+ text-decoration: none;
+ font-family: Sans-Serif;
+}
+
+#logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#header{
+  box-sizing: border-box;
+  height: 70px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff0000;
+}
+
+#menu{
+  display: flex;
+  list-style: none;
+  gap: .5rem;
+  background-color: #000000;
+  border-radius: 10px;
+  
+}
+
+#menu a{
+display: block;
+padding: .5rem;
+}
+
+#texto{
+  color: #ffffff;
+  font-size: 15px;
+position: absolute;
+left: 0%;
+bottom:25%;
+background-color: #ff0000;
+border: none;
+padding: 30px;
+border-radius: 34px;
+  
+}
